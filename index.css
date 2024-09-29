@@ -29,6 +29,7 @@ main{
     background: url("photo-1727200450376-c17276ab2b28.avif") no-repeat center center;
     background-size: cover;
     height: 92vh;
+
 }
 .nav-list{
     list-style: none;
@@ -55,10 +56,6 @@ cursor: pointer;
   body{
     overflow: hidden;
   }
-
-
-  
-  
     .nav-list{
     position: absolute;
     top: 8vh;
@@ -85,4 +82,21 @@ cursor: pointer;
 .nav-list.active{
     transform: translateX(0);
     
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mapBox{
+    justify-content: center;
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    background: #fff;
+}
+.mapBox iframe{
+    width: 100;
+    height: 100%;
 }
