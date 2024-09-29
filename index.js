@@ -21,3 +21,11 @@ const MobileNavbar = new MobileNavbar(
 ".nav-list",
 ".nav-list li",
 );
+
+
+
+const MobileNavbar = new MobileNavbar(
+".mobile-menu",
+".nav-list",
+".nav-list li",
+);
